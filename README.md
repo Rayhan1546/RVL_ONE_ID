@@ -15,7 +15,6 @@ As the cornerstone authentication system for RVL Systems, this package standardi
 - 🎯 **Singleton Pattern** - Easy-to-use singleton instance
 - ⚡ **Auto-initialization** - Automatic token refresh on app start
 - 🛡️ **Keycloak Integration** - Built on top of flutter_appauth for enterprise-grade security
-- 🔑 **PKCE Support** - Proof Key for Code Exchange for enhanced security
 
 ## Technology Stack
 
@@ -331,6 +330,26 @@ try {
 }
 ```
 
+
+## Add Permission
+
+### Android
+
+Add the following to your `android/app/src/main/AndroidManifest.xml`:
+
+```xml
+<uses-permission android:name="android.permission.CAMERA" />
+```
+
+### iOS
+
+Add the following to your `ios/Runner/Info.plist`:
+
+```xml
+<key>NSCameraUsageDescription</key>
+<string>This app needs camera access for registration purposes</string>
+```
+
 ## Deep Link Configuration
 
 ### Android
@@ -368,7 +387,6 @@ Add the following to your `ios/Runner/Info.plist`:
 ## Security Considerations
 
 - **Token Storage**: All tokens are stored securely using `flutter_secure_storage` with encryption
-- **PKCE**: The package uses Proof Key for Code Exchange for enhanced security
 - **Automatic Refresh**: Tokens are automatically refreshed when expired
 - **Secure Communication**: All communication with Keycloak uses HTTPS
 - **Client Secret**: Store client secrets securely and never expose them in client-side code for production apps
