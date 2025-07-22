@@ -281,6 +281,8 @@ Future<bool> checkLoginStatus() async {
   }
 }
 ```
+## Flow Chart
+<img height="689" alt="Image" src="https://github.com/user-attachments/assets/b67e7c53-1ad3-4b0b-a6e9-b49063ce43f7" />
 
 ## API Reference
 
@@ -440,6 +442,8 @@ This package depends on:
 - `flutter_appauth: 9.0.1`
 - `flutter_secure_storage: 9.2.4`
 - `flutter/material.dart`
+- `permission_handler: 12.0.1`
+- `webview_flutter: 4.7.0`
 
 ## License
 
