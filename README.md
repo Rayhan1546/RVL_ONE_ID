@@ -445,6 +445,18 @@ This package depends on:
 - `permission_handler: 12.0.1`
 - `webview_flutter: 4.7.0`
 
+## 📱 Example / Demo APK
+
+You can download and try the demo version of the app using the link below:
+
+🔗 [**Download APK**](https://drive.google.com/file/d/1256v7qM-dRVNJ6H0QffgsqR5bNYd0uxB/view?usp=sharing)
+
+> ⚠️ **Installation Tips:**
+> - Open the link on your Android device.
+> - Tap the download icon at the top.
+> - Allow installation from unknown sources when prompted.
+> - Minimum supported Android version: **8.0 (API 26)**
+
 ## License
 
 This project is licensed under a proprietary license. All rights reserved by RVL Systems.
